@@ -147,6 +147,9 @@ footer{
         align-items: center;
         img{
             max-width: 100%;
+            min-height: 100%;
+            border: 2px solid white;
+            border-radius: 10px;
         }
     }
 }
@@ -162,6 +165,9 @@ footer{
         width: 100%;
         img{
             max-width: 100%;
+            min-height: 100%;
+            border: 2px solid white;
+            border-radius: 10px;
         }
     }
     .rpj2{
@@ -185,6 +191,9 @@ footer{
         width: 100%;
         img{
             max-width: 100%;
+            min-height: 100%;
+            border: 2px solid white;
+            border-radius: 10px;
         }
     }
 }
