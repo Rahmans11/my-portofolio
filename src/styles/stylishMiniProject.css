@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body{
+    background-color: rgba(185, 200, 217, 0.902);
+    box-sizing: border-box;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+header{
+    font-size:medium;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    margin: 100px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'comfortaa';
+    color: rgb(53, 51, 51);
+    margin: -10px;
+    svg{
+        width: 100%;
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    a{
+        display: inline;
+        padding: 15px;
+        max-width: 20%;
+    }
+}
+
+.top-content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+.header-name{
+    font-size: medium;
+    font-family:'comfortaa';
+    padding: 5px;
+    margin-left: 100px;
+}
+.nav-head{
+    font-family:'raleway';
+    padding: 10px;
+    margin-right: 100px;
+    a{
+        padding: 25px 25px;
+    }
+}
+
+.greeting{
+    width: 80%;
+    padding-bottom: 300px;
+}
+.tag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: orangered;
+}
+
+.intro{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+.project-btn-s1{
+    background-color: cyan;
+    border-color: cyan;
+    border-radius: 5px;
+    width: 35%;
+    font-size: 80%;
+    padding: 5px 5px;
+}
+
+.linkedin-btn-s1{
+    border-radius: 5px;
+    width: 35%;
+    font-size: 80%;
+    padding: 5px 5px;
+}
+
+.picture-self img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 50%;
+    mask-image: url(/src/images/yellow-bg.png);
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: azure;
+    -webkit-mask-image: url(/src/images/yellow-bg.png);
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+.projects{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: rgb(119, 0, 255);
+    
+}
+
+.articles{
+    
+    p{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.pj1{
+    margin: 50px 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .lpj1{
+        padding: 70px 50px;
+        width: 100%;
+    }
+    .rpj1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+.pj2{
+    margin: 50px 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .lpj2{
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+    .rpj2{
+        padding: 70px 50px;
+        width: 100%;
+    }
+}
+
+.pj3{
+    margin: 50px 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .lpj3{
+        padding: 70px 50px;
+        width: 100%;
+    }
+    .rpj3{
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+.pro-desc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.artic-btn{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 5px;
+    a{
+        margin: 10px;
+    }
+}
+
+.form-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: rgb(76, 0, 255);
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 10px;
+        .item-label{
+            margin-bottom: 10px;
+        }
+        .item-label{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .item-input{
+            margin-bottom: 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            height: 5vh;
+        }
+        #message{
+                height: 15vh;
+            }
+        .btn-form{
+            display: flex;
+            justify-content: right;
+            margin-bottom: 20px;
+            button{
+            width: 25%;
+            background-color: cyan;
+            border-color: cyan;
+            border-radius: 5px;
+            padding: 5px 5px;
+            }
+        }
+    }
+}
+
+.bottom-wave{
+    svg{
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+/*
+Page-About
+*/
+.about-content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.resume-btn{
+    background-color: cyan;
+    border-color: cyan;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 80%;
+    padding: 5px 5px;
+}
+
+.about-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+    z-index: -1;
+    width: 50%;
+    border: azure;
+    border-radius: 100%;
+    background-color: azure;
+    }
+}
+
+/* 
+Contact
+*/
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        font-size: xx-large;
+        font-weight: 800;
+        color: rgb(147, 134, 9);
+    }
+    .contact-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+.con-insta-logo{
+    img{
+        width: 300px;
+    }
+    
+}
+
+.con-link-logo{
+    img{
+        width: 300px;
+    }
+    
+}
+
+.con-mail-logo{
+    img{
+        width: 160px;
+        margin-left: 230px;
+    }
+}
+
+.label{
+    margin-left: 30px;
+}
