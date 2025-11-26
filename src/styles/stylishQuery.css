@@ -4,28 +4,26 @@
     margin: 0;
 }
 
-.top-content{
+.hero{
     display: grid;
     grid-template-columns: 90% 10%;
+    padding-top: 35%;
+    height: 600px;
 }
 
 .greeting{
     padding-bottom: 100px;
 }
 
-.pj1{
+.project{
     display: flex;
     flex-direction: column;
+
 }
 
-.pj2{
+.projects article:nth-child(2n){
     display: flex;
     flex-direction: column-reverse;
-}
-
-.pj3{
-    display: flex;
-    flex-direction: column;
 }
 
 .about-content{
